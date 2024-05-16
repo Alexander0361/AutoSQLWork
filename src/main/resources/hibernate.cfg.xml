@@ -9,6 +9,7 @@
         <property name="hibernate.dialect">org.hibernate.dialect.SQLiteDialect</property>
 
 <!--        <property name="connection.url">jdbc:sqlite:org.max.home.db</property>
+            <!-- надо удалить лишний org.max. во всез встроках ниже -->
         <mapping class="org.max.org.max.home.CourierInfoEntity"/>
         <mapping class="org.max.org.max.home.CustomersEntity"/>
         <mapping class="org.max.org.max.home.DeliveryEntity"/>
