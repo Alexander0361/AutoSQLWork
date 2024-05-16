@@ -91,6 +91,7 @@
                     <schemas>
                         <schema>schemaName</schema>
                     </schemas>  -->
+                         <!--   тут надо указать <url>jdbc:sqlite:home.db</url>                 -->
                     <url>jdbc:sqlite:seminar.db</url>
                     <locations>filesystem:db/seminar/migration</locations>
                 </configuration>
